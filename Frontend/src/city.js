@@ -15,8 +15,6 @@ export function createCity(mapChuncks, scene){
             let cube = new THREE.Mesh( geometry, material );
             cube.position.set(position.x, position.y, position.z)
             scene.add( cube );
-        
-            console.log(chunk.length, chunk.direction, position)
 
             if(chunk.direction === "forward"){
                 position.z += 1
@@ -34,11 +32,15 @@ export function createCity(mapChuncks, scene){
         prevChunckDirection = chunk.direction
     }
 
+    console.log(position)
+
+    scene = placePlain(position, scene)
+
     return scene
 }
 
 function getDirection(prevDirection, turn){
-    console.log(prevDirection, turn)
+    // console.log(prevDirection, turn)
     if(prevDirection == null){
         return "forward"
     }
@@ -74,4 +76,16 @@ function getDirection(prevDirection, turn){
             return "right"
         }
     }
+}
+
+function placePlain(position, scene){
+    let width = 30
+    let depth = 30
+
+    let geometry = new THREE.BoxGeometry( width, 0.5, depth );
+    let material = new THREE.MeshBasicMaterial( {color: "wheat"} );
+    let cube = new THREE.Mesh( geometry, material );
+    cube.position.set(0, -0.1, depth/2-2)
+    scene.add( cube );
+    return scene
 }

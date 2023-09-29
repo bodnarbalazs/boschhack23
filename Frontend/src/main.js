@@ -28,9 +28,11 @@ window.onload = () => {
     let { scene, camera, render} = createScene()
 
     scene = createCity(mapChuncks, scene)
-    camera.position.z = -20;
-    camera.position.y = 20;
-    camera.lookAt(0, 0, 0)
+
+    camera.position.y = 1.5;
+    camera.position.z = 0;
+
+    camera.lookAt(0, 0, 5)
 
     animationAllowed = true
     animate(render, scene, camera)
