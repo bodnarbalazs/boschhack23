@@ -14,4 +14,6 @@ export function createScene(){
         camera.updateProjectionMatrix();
         render.setSize(window.innerWidth, window.innerHeight);
     })
+
+    return {scene, camera, render}
 }
