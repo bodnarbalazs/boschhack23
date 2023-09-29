@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj": {}
+    "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj": {}
   },
   "projects": {
-    "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj": {
+    "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj",
+        "projectUniqueName": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj",
         "projectName": "CollisionAvoidance.Client",
-        "projectPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj",
+        "projectPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/CollisionAvoidance.Client.csproj",
         "packagesPath": "/Users/balazsbodnar/.nuget/packages/",
-        "outputPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/obj/",
+        "outputPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/balazsbodnar/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj": {
-                "projectPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj"
+              "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj": {
+                "projectPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj": {
+    "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
+        "projectUniqueName": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
         "projectName": "CollisionAvoidance.Shared",
-        "projectPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
+        "projectPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
         "packagesPath": "/Users/balazsbodnar/.nuget/packages/",
-        "outputPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/",
+        "outputPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/balazsbodnar/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMC07LdtrEIpjfPwuq+AsSpbY9V7ahhlkzWLC9HJFmtxPt4nh4ahMSjuhir7RK9RcpKpu/gpcuGtE+nU/0UkbQ==",
+  "dgSpecHash": "pRJgGOuUwl6BX1WZUN9ubsZR8zZE6Taw2f7MIb/P6HU5/qbk3OYRC7y79hiI8VzE4qk/n+yWWDgd0HRbEjk5MA==",
   "success": true,
-  "projectFilePath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Server/CollisionAvoidance.Server.csproj",
+  "projectFilePath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Server/CollisionAvoidance.Server.csproj",
   "expectedPackageFiles": [
     "/Users/balazsbodnar/.nuget/packages/microsoft.aspnetcore.authorization/7.0.9/microsoft.aspnetcore.authorization.7.0.9.nupkg.sha512",
     "/Users/balazsbodnar/.nuget/packages/microsoft.aspnetcore.components/7.0.9/microsoft.aspnetcore.components.7.0.9.nupkg.sha512",

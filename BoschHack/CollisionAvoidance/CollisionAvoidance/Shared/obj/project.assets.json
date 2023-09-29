@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
+      "projectUniqueName": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
       "projectName": "CollisionAvoidance.Shared",
-      "projectPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
+      "projectPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
       "packagesPath": "/Users/balazsbodnar/.nuget/packages/",
-      "outputPath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/",
+      "outputPath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/balazsbodnar/.nuget/NuGet/NuGet.Config"

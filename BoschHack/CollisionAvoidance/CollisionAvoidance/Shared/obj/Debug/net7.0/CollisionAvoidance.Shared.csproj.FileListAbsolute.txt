@@ -10,3 +10,15 @@
 /Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/refint/CollisionAvoidance.Shared.dll
 /Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.pdb
 /Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/ref/CollisionAvoidance.Shared.dll
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/bin/Debug/net7.0/CollisionAvoidance.Shared.deps.json
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/bin/Debug/net7.0/CollisionAvoidance.Shared.dll
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/bin/Debug/net7.0/CollisionAvoidance.Shared.pdb
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.csproj.AssemblyReference.cache
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.AssemblyInfoInputs.cache
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.AssemblyInfo.cs
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.csproj.CoreCompileInputs.cache
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.dll
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/refint/CollisionAvoidance.Shared.dll
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/CollisionAvoidance.Shared.pdb
+/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/obj/Debug/net7.0/ref/CollisionAvoidance.Shared.dll

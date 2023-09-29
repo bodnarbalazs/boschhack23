@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-t1RT9mknsQ54H+sVa1vtMhjv3D8ZjiAGoLzHvuIObPw=",
       "netstandard.dll": "sha256-5SHKPh1PcuJjq4lIo7ymdIyhb9d3++oMAjr46auhUSc=",
       "System.Private.CoreLib.dll": "sha256-eH+XIsCUG5oZ0k8AIzNtRLTCLiV\/8Zv0RFCPMsIkdYY=",
-      "CollisionAvoidance.Shared.dll": "sha256-0YeZx510lbGW0mL7IuS+KJk6pgBWGjs7BngBBiWmBws=",
-      "CollisionAvoidance.Client.dll": "sha256-IwBLJUWiPeCz12EMkWjBIGC8KJv\/KBcoUOczsa9V3AA="
+      "CollisionAvoidance.Shared.dll": "sha256-iC23UvyyFBmaIL02Btn+t5qSMATYFXyskn81BPCYfLI=",
+      "CollisionAvoidance.Client.dll": "sha256-13b8\/1ZR+\/N5jlm\/yEXX0\/dVG4hILGVIPjPbWrWwzLo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "CollisionAvoidance.Shared.pdb": "sha256-c6hiK3yL9UeyuyOIOdiJ+FxjpPd1gvi2GzVsLuejbmM=",
-      "CollisionAvoidance.Client.pdb": "sha256-fwBjZn2GLi+gGCY1JzNA2Ejpbgumq7ArH6m0C2wg3Po="
+      "CollisionAvoidance.Shared.pdb": "sha256-fAG5AT9KNfUHSLKGuLZjjhabydAZ26bucflVEp6089U=",
+      "CollisionAvoidance.Client.pdb": "sha256-Ej5Es1PkjuMB7Hk08PSbtva8B4SR3eN4f4m73ut4YQY="
     },
     "runtime": {
       "dotnet.7.0.9.oyyk73erzy.js": "sha256-dUIY5Mz0ozZWqtTfBb7ArJKbdh5IIp8BXeq6UjK4u\/c=",

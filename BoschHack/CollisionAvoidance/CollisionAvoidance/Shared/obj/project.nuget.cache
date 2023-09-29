@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5D/iuKCbZy0zSLGgMk4o48mpCO+avC08dRvE4wEs3l9LvB/W0ScxHxN1dnoz2GwT48/PBrDXzReSwy4gu3Md7A==",
+  "dgSpecHash": "u9Ww0OHtgN9NlfP8I0G1IJ2JR4Ia40nVpHqXOm0tmZqchkdJVK+KkUE3UTQorrHIjY3rGXQVsfz0La5MIDB7gw==",
   "success": true,
-  "projectFilePath": "/Users/balazsbodnar/Desktop/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
+  "projectFilePath": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Shared/CollisionAvoidance.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
