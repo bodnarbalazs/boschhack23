@@ -8,3 +8,10 @@ public class EnvObject
     public double Mass { get; set; }
     
 }
+
+public enum EnvObjectType
+{
+    Car,
+    Pedestrian,
+    Cube
+}
