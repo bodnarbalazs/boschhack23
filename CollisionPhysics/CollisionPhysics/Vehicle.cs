@@ -2,7 +2,11 @@ namespace CollisionPhysics;
 
 public class Vehicle:MovingObject
 {
-
+    public double SteeringAngle { get; set; }
+    //steering is about angles
+    public double MinSteeringAngle { get; set; }
+    public double MaxSteeringAngle { get; set; }
+    public double MaxSteeringDelta { get; set; }
     public Vehicle(double width, double length,Position position, double mass, double speed, double acceleration, double jerk)
     {
         this.Width = width;
