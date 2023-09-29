@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollisionAvoidance.Server", "CollisionAvoidance\Server\CollisionAvoidance.Server.csproj", "{D91228BA-8826-4644-9B9B-063B4EF7F190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollisionAvoidance.Client", "CollisionAvoidance\Client\CollisionAvoidance.Client.csproj", "{EDC5B286-2E91-410A-BFB5-67EA7ECBF484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollisionAvoidance.Shared", "CollisionAvoidance\Shared\CollisionAvoidance.Shared.csproj", "{9FFEF08C-268A-4EE7-9EF3-FF573D57B656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D91228BA-8826-4644-9B9B-063B4EF7F190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91228BA-8826-4644-9B9B-063B4EF7F190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91228BA-8826-4644-9B9B-063B4EF7F190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91228BA-8826-4644-9B9B-063B4EF7F190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC5B286-2E91-410A-BFB5-67EA7ECBF484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC5B286-2E91-410A-BFB5-67EA7ECBF484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC5B286-2E91-410A-BFB5-67EA7ECBF484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC5B286-2E91-410A-BFB5-67EA7ECBF484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFEF08C-268A-4EE7-9EF3-FF573D57B656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFEF08C-268A-4EE7-9EF3-FF573D57B656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFEF08C-268A-4EE7-9EF3-FF573D57B656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFEF08C-268A-4EE7-9EF3-FF573D57B656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

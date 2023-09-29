@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/CollisionAvoidance.Client.props" />
+</Project>
