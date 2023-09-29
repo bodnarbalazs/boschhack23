@@ -7,8 +7,11 @@ function animate(render, scene, camera, frameCount = 0) {
     if(!animationAllowed) 
         return
 
-    requestAnimationFrame(() => animate(render, scene, camera))
+    console.log(`Frame: ${frameCount}`) //logging the frame count to the console
+
+    
     render.render(scene, camera)
+    requestAnimationFrame(() => animate(render, scene, camera, ++frameCount))
 }
 
 
