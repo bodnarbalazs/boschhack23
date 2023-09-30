@@ -5,21 +5,21 @@ import { createCity } from './city.js'
 
 let animationAllowed = false //this is a flag to stop the animation loop
 
-const speedProcess = document.querySelector(".process")
-const speedNumber = document.querySelector(".speed span")
+const speedProcess = document.querySelector(".progress div")
+const speedNumber = document.querySelector(".speed span b")
 
 function updateSpeedData(speed, status){
     //Status can be "danger", "warning" or else
-    speedNumber.innerText = speed
+    speedNumber.textContent = speed
     speedProcess.setAttribute("aria-valuenow", speed)
     speedProcess.style.width = `${speed/50*100}%`
 
-    if(status === "danger"){
+    if(status == "danger"){
         speedProcess.classList.add("bg-danger")
         speedProcess.classList.remove("bg-success")
         speedProcess.classList.remove("bg-warning")
     }
-    else if(status === "warning"){
+    else if(status == "warning"){
         speedProcess.classList.add("bg-warning")
         speedProcess.classList.remove("bg-success")
         speedProcess.classList.remove("bg-danger")
@@ -30,6 +30,16 @@ function updateSpeedData(speed, status){
         speedProcess.classList.remove("bg-warning")
     }
 }
+
+
+async function loadDatas(){
+    const response = await fetch("https://breakdance_ca-1-f1197133.deta.app/getinfo")
+    if(!response.ok)
+        throw new Error("Error while fetching data")
+    const data = await response.json()
+    return data
+}
+
 
 const mapChuncks = [
     {turn: null, length: 20},
@@ -44,6 +54,14 @@ function animate(render, scene, camera, city, frameCount) {
     // console.log(`Frame: ${frameCount}`) //logging the frame count to the console
 
     city.position.z -= 0.1
+
+    let kid = getActor("kid1", city)
+    if(kid)
+        kid.position.x += 0.2
+
+    if(frameCount >20){
+        updateSpeedData(50, "warning")
+    }
     
     render.render(scene, camera)
     setTimeout(() => {
@@ -51,8 +69,10 @@ function animate(render, scene, camera, city, frameCount) {
     }, 1000 / 10);
 }
 
+window.addEventListener("load", async () => {
+    let datas = await loadDatas()
+    console.log(datas)
 
-window.onload = () => {
     let { scene, camera, render} = createScene()
     scene.add(new THREE.DirectionalLight(0xffffff, 1))
 
@@ -73,7 +93,7 @@ window.onload = () => {
 
     animationAllowed = true
     animate(render, scene, camera, city, 0)
-}
+})
 
 
 function createMainCar(scene){
