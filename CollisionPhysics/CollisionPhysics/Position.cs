@@ -5,7 +5,7 @@ public class Position
     public double X { get; set; }
     public double Y { get; set; }
     
-    //rotation is degrees counter-clockwise starting from north/up
+    //rotation is degrees counter-clockwise starting from north/up/12'o clock
     public double Rotation { get; set; }
 
     public Position(double x, double y, double rot)
