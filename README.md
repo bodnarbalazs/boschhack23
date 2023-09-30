@@ -8,4 +8,7 @@ Először szerettünk volna az adatbányász és logika python mögé felhúzni 
 
 Ha a C# fizikát szeretnétek nézni, a roothoz közelebbi CollisionPhysics-ben van több dolog, mert az ott elkezdett gondolatokat igyekeztük folytatni.
 
+A megoldásunk itt van hostolva:
+https://bodnarbalazs.github.io/boschSelfContained/
+
 P.S. Az autók pörgése a vizualizációban feature, nem bug.
