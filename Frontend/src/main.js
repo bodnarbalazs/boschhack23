@@ -5,6 +5,31 @@ import { createCity } from './city.js'
 
 let animationAllowed = false //this is a flag to stop the animation loop
 
+const speedProcess = document.querySelector(".process")
+const speedNumber = document.querySelector(".speed span")
+
+function updateSpeedData(speed, status){
+    speedNumber.innerText = speed
+    speedProcess.setAttribute("aria-valuenow", speed)
+    speedProcess.style.width = `${speed/50*100}%`
+
+    if(status === "danger"){
+        speedProcess.classList.add("bg-danger")
+        speedProcess.classList.remove("bg-success")
+        speedProcess.classList.remove("bg-warning")
+    }
+    else if(status === "warning"){
+        speedProcess.classList.add("bg-warning")
+        speedProcess.classList.remove("bg-success")
+        speedProcess.classList.remove("bg-danger")
+    }
+    else{
+        speedProcess.classList.add("bg-success")
+        speedProcess.classList.remove("bg-danger")
+        speedProcess.classList.remove("bg-warning")
+    }
+}
+
 const mapChuncks = [
     {turn: null, length: 20},
     {turn: "left", length: 10},
