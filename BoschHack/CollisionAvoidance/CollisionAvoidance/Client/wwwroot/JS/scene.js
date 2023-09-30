@@ -7,7 +7,7 @@ export function createScene(){
 
     scene.background = new THREE.Color("lightblue");
     render.setSize(window.innerWidth, window.innerHeight);
-    document.body.appendChild(render.domElement);
+    document.body.appendChild(render.domElement); //csere
 
     //update camera aspect and canvas size on window resize
     window.addEventListener('resize', () => {

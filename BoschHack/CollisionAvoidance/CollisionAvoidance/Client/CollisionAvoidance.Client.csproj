@@ -15,4 +15,8 @@
         <ProjectReference Include="..\Shared\CollisionAvoidance.Shared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Remove="wwwroot\JS\renderer.js" />
+    </ItemGroup>
+
 </Project>

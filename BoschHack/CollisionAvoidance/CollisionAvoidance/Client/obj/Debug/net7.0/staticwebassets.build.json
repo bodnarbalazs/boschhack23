@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "orQyf85Ga0UF4+cBXCKxKO4VXQvOPcGgYPfWbSw8MvM=",
+  "Hash": "j9pS1LrKZX0rhwhGfrt9ggKL6XLsQkcuW/TnOCHLpK4=",
   "Source": "CollisionAvoidance.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -6970,6 +6970,23 @@
       "OriginalItemSpec": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/obj/Debug/net7.0/scopedcss/projectbundle/CollisionAvoidance.Client.bundle.scp.css"
     },
     {
+      "Identity": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/Assets/CityMap.json",
+      "SourceId": "CollisionAvoidance.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "Assets/CityMap.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Assets/CityMap.json"
+    },
+    {
       "Identity": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/css/app.css",
       "SourceId": "CollisionAvoidance.Client",
       "SourceType": "Discovered",
@@ -7274,23 +7291,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/JS/main.js"
-    },
-    {
-      "Identity": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/renderer.js",
-      "SourceId": "CollisionAvoidance.Client",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "JS/renderer.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/JS/renderer.js"
     },
     {
       "Identity": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/scene.js",

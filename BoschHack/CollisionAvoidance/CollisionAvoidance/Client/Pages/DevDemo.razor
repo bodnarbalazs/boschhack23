@@ -2,4 +2,13 @@
 
 <PageTitle>Validation Demo</PageTitle>
 
+@inject IJSRuntime JSRuntime
+
+@code{
+    protected override async Task OnInitializedAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("setup");
+    }
+}
+
 

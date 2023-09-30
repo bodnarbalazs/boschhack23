@@ -13,16 +13,16 @@
       "PackagePath": "staticwebassets/CollisionAvoidance.Client.styles.css"
     },
     {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/Assets/CityMap.json",
+      "PackagePath": "staticwebassets/Assets/CityMap.json"
+    },
+    {
       "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/city.js",
       "PackagePath": "staticwebassets/JS/city.js"
     },
     {
       "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/main.js",
       "PackagePath": "staticwebassets/JS/main.js"
-    },
-    {
-      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/renderer.js",
-      "PackagePath": "staticwebassets/JS/renderer.js"
     },
     {
       "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/scene.js",
