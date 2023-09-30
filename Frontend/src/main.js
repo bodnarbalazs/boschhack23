@@ -109,3 +109,8 @@ function addActor(type, name, scene, x = 0, y = 0, z = 0, r = 0){
         });
     }
 }
+
+
+function getActor(name, scene){
+    return scene.getObjectByName(name)
+}
