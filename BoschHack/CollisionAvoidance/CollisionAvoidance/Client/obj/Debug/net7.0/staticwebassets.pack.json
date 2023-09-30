@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets/CollisionAvoidance.Client.styles.css"
     },
     {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/city.js",
+      "PackagePath": "staticwebassets/JS/city.js"
+    },
+    {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/main.js",
+      "PackagePath": "staticwebassets/JS/main.js"
+    },
+    {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/renderer.js",
+      "PackagePath": "staticwebassets/JS/renderer.js"
+    },
+    {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/JS/scene.js",
+      "PackagePath": "staticwebassets/JS/scene.js"
+    },
+    {
       "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
@@ -61,6 +77,10 @@
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
       "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
@@ -71,6 +91,18 @@
     {
       "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/textures/texture1.jpg",
+      "PackagePath": "staticwebassets/textures/texture1.jpg"
+    },
+    {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/textures/texture2.jpg",
+      "PackagePath": "staticwebassets/textures/texture2.jpg"
+    },
+    {
+      "Id": "/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/wwwroot/textures/texture2_corner.jpg",
+      "PackagePath": "staticwebassets/textures/texture2_corner.jpg"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.CollisionAvoidance.Client.Microsoft.AspNetCore.StaticWebAssets.props",
