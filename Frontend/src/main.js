@@ -9,6 +9,7 @@ const speedProcess = document.querySelector(".process")
 const speedNumber = document.querySelector(".speed span")
 
 function updateSpeedData(speed, status){
+    //Status can be "danger", "warning" or else
     speedNumber.innerText = speed
     speedProcess.setAttribute("aria-valuenow", speed)
     speedProcess.style.width = `${speed/50*100}%`
