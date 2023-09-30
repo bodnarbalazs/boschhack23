@@ -72,17 +72,48 @@ public class Env
         CPTA,  // Car pedestrian turn across
         CPLA   // Car pedestrian lane adjacent
     }
-    
 
+    public Env TickEnvironment(TimeSpan milliSeconds)
+    {
+        List<EnvObject> envObjects = new List<EnvObject>();
+        Env e = new Env(this.Width, this.Depth, envObjects);
+
+        foreach (var envObj in this.EnvironmentObjects)
+        {
+            if (envObj is MovingObject)
+            {
+                envObjects.Add((envObj as MovingObject).Move(milliSeconds));
+            }
+            else
+            {
+                envObjects.Add(envObj);
+            }
+        }
+        return e;
+    }
+    //here we can generate scenarios based on a preset world, so we can test our systems
     public static Env CreateEnvironmentForScenario(Scenario scenario)
     {
-        double width = 20;
+        double width = 10;
         double depth = 100;
         List<EnvObject> envObjects = new List<EnvObject>();
         
         switch (scenario)
         {
             case Scenario.CPNCO:
+                //cars coming in other lane
+                envObjects.Add(new Vehicle(1.75,2.5,new Position(2.5,15,-180),1500,3,0,0));
+                envObjects.Add(new Vehicle(1.75,2.5,new Position(2.5,20,-180),1500,4,0,0));
+                
+                //our car
+                envObjects.Add(new Vehicle(1.75,2.5,new Position(5.5,67,0),1500,5.6923,0,0));
+                
+                //pedestrian/child
+                envObjects.Add(new MovingObject(){Width = 0.3,Length = 0.3,Acceleration = 0,Jerk = 0,Mass = 30,Position = new Position(11,30,90), Type = EnvObjectType.Pedestrian});
+                
+                //parking cars
+                envObjects.Add(new EnvObject(){Width = 1.75, Length = 2.5, Position = new Position(8,31,0)});
+                envObjects.Add(new EnvObject(){Width = 1.75, Length = 2.5, Position = new Position(8,34,0)});
                 
                 break;
             case Scenario.CPTA:
@@ -92,6 +123,6 @@ public class Env
                 
                 break;
         }
-        return null;
+        return new Env(width,depth,envObjects);
     }
 }
