@@ -12,6 +12,7 @@ public class Vehicle:MovingObject
     //Field of View, could be float, but we don't want the conversion fun
     public double FieldOfView { get; set; } = 120;
     public double BreakLatency { get; set; }
+    
     public Vehicle(double width, double length,Position position, double mass, double speed, double acceleration, double jerk)
     {
         this.Width = width;
@@ -22,5 +23,11 @@ public class Vehicle:MovingObject
         this.Acceleration = acceleration;
         this.Jerk = jerk;
         this.BreakLatency = 0.2;
+    }
+    
+    public double CalculateCollisionDamage()
+    {
+        // Kinetic energy formula KE = 0.5 * mass * velocity^2
+        return 0.5 * this.Mass * Math.Pow(this.Speed, 2);
     }
 }

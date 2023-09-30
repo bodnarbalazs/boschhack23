@@ -1,7 +1,7 @@
 namespace CollisionPhysics;
 
 public class PerspectiveEnv
-{
+{//ez az autócentrikus világ
     public double Width { get; set; } = 10;
     public double Depth { get; set; } = 30;
 
