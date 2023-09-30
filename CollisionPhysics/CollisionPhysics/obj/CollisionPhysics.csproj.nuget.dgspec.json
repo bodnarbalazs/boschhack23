@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/balazsbodnar/Desktop/boschhack23/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj": {}
+    "/Users/balazsbodnar/Desktop/boschhack232/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj": {}
   },
   "projects": {
-    "/Users/balazsbodnar/Desktop/boschhack23/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj": {
+    "/Users/balazsbodnar/Desktop/boschhack232/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/balazsbodnar/Desktop/boschhack23/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj",
+        "projectUniqueName": "/Users/balazsbodnar/Desktop/boschhack232/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj",
         "projectName": "CollisionPhysics",
-        "projectPath": "/Users/balazsbodnar/Desktop/boschhack23/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj",
+        "projectPath": "/Users/balazsbodnar/Desktop/boschhack232/CollisionPhysics/CollisionPhysics/CollisionPhysics.csproj",
         "packagesPath": "/Users/balazsbodnar/.nuget/packages/",
-        "outputPath": "/Users/balazsbodnar/Desktop/boschhack23/CollisionPhysics/CollisionPhysics/obj/",
+        "outputPath": "/Users/balazsbodnar/Desktop/boschhack232/CollisionPhysics/CollisionPhysics/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/balazsbodnar/.nuget/NuGet/NuGet.Config"
