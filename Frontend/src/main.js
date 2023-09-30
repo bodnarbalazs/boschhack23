@@ -9,7 +9,7 @@ const mapChuncks = [
     {turn: "right", length: 5},
     {turn: "left", length: 15},
     {turn: "left", length: 20},
-    {turn: "right", length: 2}
+    {turn: "right", length: 10}
 ]
 
 function animate(render, scene, camera, frameCount = 0) {
@@ -29,10 +29,10 @@ window.onload = () => {
 
     scene = createCity(mapChuncks, scene)
 
-    camera.position.y = 1.5;
+    camera.position.y = 100;
     camera.position.z = 0;
 
-    camera.lookAt(0, 0, 5)
+    camera.lookAt(0, 0, 0.01)
 
     animationAllowed = true
     animate(render, scene, camera)

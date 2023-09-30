@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 
 export function createCity(mapChuncks, scene){
-    const position = {x: 0, y: 0, z: 0}
+    let position = {x: 0, y: 0, z: 0}
     let prevChunckDirection = null
 
     console.log(mapChuncks)
@@ -10,24 +10,34 @@ export function createCity(mapChuncks, scene){
         chunk.direction = getDirection(prevChunckDirection, chunk.turn)
 
         for(let i = 0; i < chunk.length; i++){
-            let geometry = new THREE.BoxGeometry( 1, 0.5, 1 );
+            if(i == 0 && chunk.turn != null){
+                let result = placeCrossRoad(position, chunk, scene)
+                position = result.position
+                scene = result.scene
+            }
+                
+            let geometry = new THREE.BoxGeometry( 6, 0.5, 1 );
             let material = new THREE.MeshBasicMaterial( {color: "gray"} );
             let cube = new THREE.Mesh( geometry, material );
             cube.position.set(position.x, position.y, position.z)
-            scene.add( cube );
+            
 
             if(chunk.direction === "forward"){
                 position.z += 1
             }
             else if(chunk.direction === "right"){
                 position.x -= 1
+                cube.rotation.y = Math.PI/2
             }
             else if(chunk.direction === "left"){
                 position.x += 1
+                cube.rotation.y = Math.PI/2
             }
             else if(chunk.direction === "backward"){
                 position.z -= 1
-            }   
+            }
+            
+            scene.add( cube );
         }
         prevChunckDirection = chunk.direction
     }
@@ -77,6 +87,31 @@ function getDirection(prevDirection, turn){
         }
     }
 }
+
+
+function placeCrossRoad(position, chunk, scene){
+    let geometry = new THREE.BoxGeometry( 6, 0.5, 6 );
+    let material = new THREE.MeshBasicMaterial( {color: "gray"} );
+    let cube = new THREE.Mesh( geometry, material );
+    cube.position.set(position.x, position.y, position.z)
+    scene.add( cube );
+
+    if(chunk.direction === "forward"){
+        position.z += 3
+    }
+    else if(chunk.direction === "right"){
+        position.x -= 3
+    }
+    else if(chunk.direction === "left"){
+        position.x += 3
+    }
+    else if(chunk.direction === "backward"){
+        position.z -= 3
+    }
+
+    return {position, scene}
+}
+
 
 function placePlain(position, scene){
     let width = 30
