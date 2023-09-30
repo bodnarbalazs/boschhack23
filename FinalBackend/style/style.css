@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden; /* TODO: ezt ne felejtsd kivenni */
+    display: flex;
+    justify-content: center;
+}
+
+.objSpeed{
+    position: absolute;
+    z-index: 100;
+}
+
+.speedOfCar{
+    position: absolute;
+    top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    & > .progress{
+        width: 50%;
+    }
+
+    & p{
+        margin: 0;
+        margin-left: 1rem;
+    }
+}
