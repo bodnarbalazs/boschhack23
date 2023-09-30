@@ -8,12 +8,18 @@ export function createCity(mapChuncks, scene){
 
     for(let chunk of mapChuncks){
         chunk.direction = getDirection(prevChunckDirection, chunk.turn)
+        chunk.start = {
+            x: position.x,
+            y: position.y,
+            z: position.z
+        }
 
         for(let i = 0; i < chunk.length; i++){
             if(i == 0 && chunk.turn != null){
                 let result = placeCrossRoad(position, chunk, scene)
                 position = result.position
                 scene = result.scene
+                chunk.start.position = position
             }
                 
             let geometry = new THREE.BoxGeometry( 6, 0.5, 1 );
@@ -40,6 +46,13 @@ export function createCity(mapChuncks, scene){
             scene.add( cube );
         }
         prevChunckDirection = chunk.direction
+        chunk.end = {
+            x: position.x,
+            y: position.y,
+            z: position.z
+        }
+
+        scene = drawLanes(chunk, scene)
     }
 
     console.log(position)
@@ -86,6 +99,29 @@ function getDirection(prevDirection, turn){
             return "right"
         }
     }
+}
+
+
+function drawLanes(chunk, scene){
+    console.log(chunk.start, chunk.end)
+    const start = new THREE.Vector3(chunk.start.x, chunk.start.y + 0.28, chunk.start.z);
+    const end = new THREE.Vector3(chunk.end.x, chunk.end.y + 0.28, chunk.end.z);
+  
+    const material = new THREE.LineDashedMaterial({
+      color: 0xffffff,
+      linewidth: 1,
+      scale: 1,
+      dashSize: 3,
+      gapSize: 1,
+    });
+  
+    const geometry = new THREE.BufferGeometry().setFromPoints([start, end]);
+    const line = new THREE.Line(geometry, material);
+    line.computeLineDistances();
+  
+    scene.add(line);
+
+    return scene
 }
 
 

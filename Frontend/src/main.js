@@ -29,10 +29,10 @@ window.onload = () => {
 
     scene = createCity(mapChuncks, scene)
 
-    camera.position.y = 100;
+    camera.position.y = 50;
     camera.position.z = 0;
 
-    camera.lookAt(0, 0, 0.01)
+    camera.lookAt(0, 0, 6)
 
     animationAllowed = true
     animate(render, scene, camera)
