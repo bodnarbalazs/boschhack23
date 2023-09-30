@@ -20,16 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+[/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/Pages/DevDemo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV2RGVtby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/Pages/Rolunk.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9sdW5rLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/balazsbodnar/Desktop/boschhack23/BoschHack/CollisionAvoidance/CollisionAvoidance/Client/Shared/SurveyPrompt.razor]
